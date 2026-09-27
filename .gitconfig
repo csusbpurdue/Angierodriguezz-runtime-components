@@ -1,0 +1,5 @@
+# ~/.gitconfig: read by git every time it runs.
+[init]    defaultBranch = main
+[core]    editor = vim
+[pull]    rebase = true
+[color]    ui = auto
