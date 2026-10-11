@@ -17,3 +17,8 @@ set history filename ~/.gdb_history
 set print pretty on
 set confirm off
 set pagination off
+
+# boilersay
+export PATH="$HOME/.local/bin:$PATH"
+alias boilersay='cowsay -f train'
+alias hail='printf "Hammer Up\nBoiler Down\nHail Purdue\n" | boilersay -n'
